@@ -57,7 +57,7 @@ def kmp(txt, pat, check_present_only=False, print_match=False, all_occ=False, pr
 				break
 		
 	return -1
-t ="sadasda"
-p = "sda"
+t =input()
+p = input()
 
 print(kmp(t, p, check_present_only= False, print_index=True))
